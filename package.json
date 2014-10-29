@@ -1,0 +1,23 @@
+{
+  "name": "whatmd",
+  "version": "0.0.0",
+  "preferGlobal": true,
+  "description": "Module pattern probing tool",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atesgoral/whatmd.git"
+  },
+  "keywords": [
+    "commonjs",
+    "amd",
+    "umd"
+  ],
+  "author": "Ates Goral <ates@magnetiq.com> (http://magnetiq.com/)",
+  "license": "MIT",
+  "bin": {
+    "whatmd": "./bin/whatmd"
+  },
+  "dependencies": {
+    "commander": "~2.5.0"
+  }
+}
