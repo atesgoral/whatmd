@@ -31,4 +31,4 @@ Pass in a JS file to probe for module definition patters. The currently checked 
 1. AMD probing doesn't include a proper browser window emulation environment and therefore modules relying on browser features may fail to initialize and effect probe results.
 2. AMD probing cannot detect global variables defined through the use of variable assignments without `var`.
 3. AMD probing cannot handle `require()` calls within module factories.
-4. No pretty output yet. Just dumps a JS objects with a bunch of undocumented properties.
+4. No pretty output yet. Just dumps a JS object with a bunch of undocumented properties.
