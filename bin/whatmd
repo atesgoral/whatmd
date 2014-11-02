@@ -12,9 +12,9 @@ program
 var filename = program.args.shift();
 
 if (filename) {
-	var src = fs.readFileSync(filename);
+    var src = fs.readFileSync(filename);
 
     var findings = whatmd.probe(src);
 
-	console.log(findings);
+    console.log(findings);
 }

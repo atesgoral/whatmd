@@ -173,7 +173,7 @@ exports.probeAmd = function (src) {
 };
 
 exports.probe = function (src) {
-	return {
+    return {
         global: this.probeGlobal(src),
         commonJs: this.probeCommonJs(src),
         amd: this.probeAmd(src)
