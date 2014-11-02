@@ -59,8 +59,11 @@ exports.probeCommonJs = function (src) {
             __findings.exceptionThrown = e;
         }
 
-        __findings.exportsPropsAdded = Object.keys(exports);
         __findings.exportsReplaced = exports !== module.exports;
+
+        if (typeof exports === 'object') {
+            __findings.exportsProps = Object.keys(exports);
+        }
 
         return __findings;
         /*splitmarker*/
@@ -140,8 +143,11 @@ exports.probeAmd = function (src) {
             __findings.exceptionThrown = e;
         }
 
-        __findings.exportsPropsAdded = Object.keys(exports);
         __findings.exportsReplaced = exports !== module.exports;
+
+        if (typeof exports === 'object') {
+            __findings.exportsProps = Object.keys(exports);
+        }
 
         return __findings;
         /*splitmarker*/
