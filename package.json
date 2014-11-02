@@ -14,10 +14,14 @@
   ],
   "author": "Ates Goral <ates@magnetiq.com> (http://magnetiq.com/)",
   "license": "MIT",
+  "main": "whatmd",
   "bin": {
     "whatmd": "./bin/whatmd"
   },
   "dependencies": {
     "commander": "~2.5.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.9.0"
   }
 }
