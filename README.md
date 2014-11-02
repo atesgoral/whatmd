@@ -14,7 +14,7 @@ This is not meant to be a comprehensive diagnostic tool, but an optimistic helpe
 npm install -g whatmd
 ```
 
-### Usage
+## Usage
 
 ```
 whatmd <JS file>
@@ -26,7 +26,7 @@ Pass in a JS file to probe for module definition patters. The currently checked 
 2. CommonJS
 3. AMD
 
-### Limitations
+## Limitations
 
 1. AMD probing doesn't include a proper browser window emulation environment and therefore modules relying on browser features may fail to initialize and effect probe results.
 2. AMD probing cannot detect global variables defined through the use of variable assignments without `var`.
