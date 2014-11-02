@@ -1,6 +1,6 @@
 {
   "name": "whatmd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "preferGlobal": true,
   "description": "Module pattern probing tool",
   "repository": {
