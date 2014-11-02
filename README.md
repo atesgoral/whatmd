@@ -1,6 +1,6 @@
 # whatmd
 
-Module pattern definition probing tool
+Module definition pattern probing tool
 
 ## Motivation
 
