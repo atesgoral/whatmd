@@ -20,7 +20,7 @@ npm install -g whatmd
 whatmd <JS file>
 ```
 
-Pass in a JS file to probe for module definition patters. The currently checked patterns are:
+Pass in a JS file to probe for module definition patterns. The currently checked patterns are:
 
 1. Global exports
 2. CommonJS
